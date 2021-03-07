@@ -56,7 +56,8 @@ After increased alpha ny 1500 to elimited the features, afterall we have got fin
 
 As of lasso was able to reveal which features affect sale price the most.
 
-The validation set errors are then plotted against number of predictors. RMSE appears to stop decreasing significantly from 30 predictors onwards. By using the one-standard-error-rule, the smallest model for the RMSE is within one SE of the RMSE of 30 predictors is 12 (as shown where the orange dot line crosses the black line in the graph) - if two means are within one SE of each other, there is usually no sigificant difference in the means. Therefore, for the purpose of having a simpler and more easily interpretable model, the top 12 predictors will be used for the interpret the model which are:
+The validation set errors are then plotted against number of predictors. RMSE appears to stop decreasing significantly from 30 predictors onwards.  
+Therefore, for the purpose of having a simpler and more easily interpretable model, look closer at 15 predictors onward RMSE tend to slightly decrese which the top 15 predictors will be used for the interpret the model which are:
 
 
 |Features|Coefficient|
@@ -76,6 +77,8 @@ The validation set errors are then plotted against number of predictors. RMSE ap
 |bsmtexposure	|4130.057381|
 |miscfeature_Elev	|-8993.741428|
 |roofmatl_ClyTile	|-11156.215150|
+
+![PJ2_RSMEbyFEATURES](https://user-images.githubusercontent.com/76549565/110248082-ebf38780-7fa1-11eb-9065-810ab4434ef4.png)
 
 ### Recommendation to steakholders
 
