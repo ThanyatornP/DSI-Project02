@@ -54,7 +54,7 @@ This showing that thai model can predict the house price +- around $28000
 
 As of lasso was able to reveal which features affect sale price the most.
 
-The validation set errors are then plotted against number of predictors. RMSE appears to stop decreasing significantly from 30 predictors onwards. By using the one-standard-error-rule, the smallest model for the RMSE is within one SE of the RMSE of 30 predictors is 20 (as shown where the red line crosses the black line in the graph) - if two means are within one SE of each other, there is usually no sigificant difference in the means. Therefore, for the purpose of having a simpler and more easily interpretable model, the top 20 predictors will be used for the interpret the model which are:
+Therefore, for the purpose of having a simpler and more easily interpretable model, the top 20 predictors will be used for the interpret the model which are:
 
 | Features | coef |
 | --- | --- |
