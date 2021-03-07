@@ -37,7 +37,7 @@ This model select features all features from data **without outliers**
 
 As model 4 got lower R2 cross validation score and RMSE in train data compare with model 6 but at this point  model 4 shows that RMSE score in train data and test data in kaggle was closed together, which mean model 4 is not to be overfitted compare to model 6
 
-| Model | Description | Score | RMSE on train | RMSE on Kaggle |
+| Model | Description | R2 CV Score | RMSE on train | RMSE on Kaggle |
 | --- | --- | --- | --- | --- |
 |Model1: Lasso| Numerical cleaned data with cofficient > 40% | 80.12% | 35108 | 33266 |
 |Model2: Lasso| All numerical cleaned data| 80.71% | 34536 | 33425 |
