@@ -50,7 +50,7 @@ As model 4 got lower R2 cross validation score and RMSE in train data compare wi
 
 In Model 4, lasso regression model was selected as its had best prediction value on house price in AMES shows in Kaggle out perform other linear regression models.  
 
-After increased alpha ny 1500 to elimited the features, afterall we have got final 52 features with RMSE in train data at 29403 and on Kaggle at 29377.
+After increased alpha ny 1500 to elimited the features, afterall we have got final 52 features (if count  same categorical as 1 features it will be final at 39 features) with RMSE in train data at 29403 and on Kaggle at 29377.
 
 **This showing that the final model can predict the house price +- around $29000**
 
