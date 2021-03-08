@@ -82,7 +82,7 @@ Therefore, for the purpose of having a simpler and more easily interpretable mod
 
 ### Recommendation to steakholders
 
-##### In conclusion the factors the reslut to house price that owner should consider: 
+##### In conclusion the factors the result to house price that owner should consider: 
 <ul>
     <li>Above ground living area</li>
     <li>Quality of overall condition </li>
@@ -110,3 +110,7 @@ Therefore, for the purpose of having a simpler and more easily interpretable mod
     <li>Clay or Tile roof material </li>
     <li>Elevator in the house</li>
 </ul> 
+
+#### Limitation
+
+As this model is a prediction house price in Ames, Iowa which will not be able to use to predict the house price in others area.
